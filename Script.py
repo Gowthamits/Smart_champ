@@ -11,14 +11,14 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/qtmve_linkzZ')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/qtmve_linkzzZ')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
     
 ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/MR_X_MIRROR><b>ᴍʀ x ᴍɪʀʀᴏʀ</b></a></b>''')
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/owner_of_qtmve><b>ᴍʀ x ᴍɪʀʀᴏʀ</b></a></b>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>
@@ -27,16 +27,16 @@ class script(object):
 ├⍟ Meh Name : <a href=http://t.me/qtmvefilrer_bot><b>ᴍᴀᴅᴀɴ ᴏᴘ x ꜰɪʟᴛᴇʀ ʙᴏᴛ</b></a>
 ├⍟ Owner : <a href=https://t.me/Owner_of_qtmve><b>ᴠᴀɪʀᴀᴍᴜᴛʜᴜ</b></a>
 ├⍟ Version : ᴍʀ x 3.1 [ Stable ]
-├⍟ Server : <a href=https://t.me/MR_X_MIRROR><b>ᴍʀ x sᴇʀᴠᴇʀ</b></a>
+├⍟ Server : <a href=https://t.me/owner_of_qtmve><b>ᴍʀ x sᴇʀᴠᴇʀ</b></a>
 ├⍟ Language : ᴘʏᴛʜᴏɴ 3
 ├⍟ Framework : ᴘʏʀᴏɢʀᴀᴍ
-├⍟ Developer : <a href=https://t.me/MR_X_MIRROR><b>ᴍʀ x ᴍɪʀʀᴏʀ</b></a>
+├⍟ Developer : <a href=https://t.me/owner_of_qtmve><b>ᴍʀ x ᴍɪʀʀᴏʀ</b></a>
 ├⍟ Powered By  : <a href=https://t.me/Owner_of_qtmve><b>ᴍᴀᴅᴀɴ ᴏᴘ</b></a>
 │
 ╰─────────────────────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
 » ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ
-» ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @MR_X_MIRROR</b>"""
+» ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @owner_of_qtmve</b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴩ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 
 • ꜰɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -61,7 +61,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MR_X_MIRROR)</code>
+<code>[Button Text](buttonurl:https://t.me/owner_of_qtmve)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
