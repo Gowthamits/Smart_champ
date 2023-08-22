@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '11427887'))
 API_HASH = environ.get('API_HASH', '317ea7bfc3dcbfb2a4aa7c866110074e')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5836040733:AAH4S8AEoSgjqG9iYnAYkFE5xUky9JfwU4A")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5836040733:AAEvq2rDK8RNGG27Uj4arM3uhZZBCHq3vvw")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -29,7 +29,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001520430666').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1044163529 5784009732').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001603607585')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001666069456')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
