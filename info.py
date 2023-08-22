@@ -85,7 +85,7 @@ DOWNLOAD_TEXT_NAME = "📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥"
 DOWNLOAD_TEXT_URL = ""
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "❤️JOIN❤️‍"
+CAPTION_BUTTON = "🦞 𝗝𝗢𝗜𝗡 𝗡𝗢𝗪 ❤‍🔥"
 CAPTION_BUTTON_URL = "https://t.me/qtmve_linkzZz"
 
    # Auto Delete For Bot Sending Files #
