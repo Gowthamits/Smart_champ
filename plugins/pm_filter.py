@@ -109,7 +109,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/SAM_DUB_LEEZZA"),
-            InlineKeyboardButton("🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/SAM_DUB_LEZHa")
+            InlineKeyboardButton("🍃 ＵＰＤＡＴＥ 🗽", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/SAM_DUB_LEZHa"),]
+    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/SMD_Dulinks/26"),]
 )
     if n_offset == 0:
         btn.append(
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
             InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
@@ -707,7 +707,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     
     btn.append(
-    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/SAM_DUB_LEZHa"),]
+    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/SMD_Dulinks/26"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
