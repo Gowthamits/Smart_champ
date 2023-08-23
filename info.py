@@ -71,8 +71,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', None)
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', None)
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', "omnifly.in.net")
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', "ab902e9f48d0f651e1bca4fee694b0efc85a1cf2")
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -82,10 +82,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥"
-DOWNLOAD_TEXT_URL = None
+DOWNLOAD_TEXT_URL = "https://t.me/SMD_Dulinks/26"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "🎋MAIN HUB🥴"
-CAPTION_BUTTON_URL = "https://t.me/Qtmve_linkzZz"
+CAPTION_BUTTON_URL = "https://t.me/SAM_DUB_LEZHa"
 
    # Auto Delete For Bot Sending Files #
