@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://graph.org/file/f3be62781274db58fd023.jpg , https://graph.org/file/58579ac1ee9964c11b07c.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/58579ac1ee9964c11b07c.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5802083392 1044163529').split()]
@@ -45,7 +45,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Owner_of_qtmve')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>🗂FileName : <code>{file_name}</code> \n\n🏷FileSize : <code>{file_size}</code>\n\n🦞JOIN : @heyguyscomeontakeit</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>🗂FileName : <code>{file_name}</code> \n\n🏷FileSize : <code>{file_size}</code>\n\n♻️Join  Now ❤️‍🔥: @HeyGuysComeOnTakeIt </b>\n\n👀ɴᴏᴛᴇ : ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>🗂FileName : <code>{file_name}</code> \n\n🏷FileSize : <code>{file_size}</code>\n\n🥀JOIN : @heyguyscomeontakeit</b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🗂 Title : {title} \n🎭 Genre : {genres} \n📆 Year : {year} \n🌟 Rating : {rating}\n\n🗽 Uploaded By : @heyguyscomeontakeit</b>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
