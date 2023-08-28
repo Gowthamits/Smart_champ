@@ -22,15 +22,15 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
         ], [
-            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
+            InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -45,15 +45,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
         ], [
-            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
+            InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,15 +93,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
         ], [
-            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
+            InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
