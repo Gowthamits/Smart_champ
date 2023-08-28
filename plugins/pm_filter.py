@@ -475,11 +475,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('👑𝕊𝕆𝕌ℝℂ𝔼🥀', callback_data='source')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('👑𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘🥀', callback_data='source')
         ],[
-            InlineKeyboardButton('🍁ℍ𝕆𝕄𝔼🌿', callback_data='start'),
-            InlineKeyboardButton('🍀ℂ𝕃𝕆𝕊𝔼🍀', callback_data='close_data') 
+            InlineKeyboardButton('🍁𝗛𝗢𝗠𝗘🌿', callback_data='start'),
+            InlineKeyboardButton('🍀𝗖𝗟𝗢𝗦𝗘🍀', callback_data='close_data') 
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -701,13 +701,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/SAM_DUB_LEEZZA"),
-            InlineKeyboardButton("⚡🍃 ＭＡＩＮ ＨＵＢ 🗽", url="https://t.me/SAM_DUB_LEZHa")
+            InlineKeyboardButton("☘️ 𝗥𝗘𝗤𝗨 𝗛𝗨𝗕 🦞", url="https://t.me/SAM_DUB_LEEZZA"),
+            InlineKeyboardButton("☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/SMD_Dulinks/26"),]
+    [InlineKeyboardButton("🥀𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🦞", url="https://t.me/SMD_Dulinks/26"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
