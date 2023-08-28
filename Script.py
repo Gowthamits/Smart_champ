@@ -12,13 +12,13 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
-    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
+    START_TXT = environ.get("START_TXT", '''<b>𝐇𝐞𝐥𝐥𝐨... {}
     
-ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Sparkzyy_bot><b>💥 𝐒𝐩𝐚𝐫𝐤𝐳𝐲𝐲 𝐛𝐨𝐭𝐳 💥</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=http://t.me/Sparkzyy_bot><b>🎋𝐒𝐩𝐚𝐫𝐤𝐳𝐲𝐲 𝐛𝐨𝐭𝐳 🎭</b></a>
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
+𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/SMD_Owner><b>🦞𝐀𝐮𝐭𝐡𝐨𝐫🦞</b></a></b>''')
+𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 🍁<a href=https://t.me/SMD_Owner><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b>
