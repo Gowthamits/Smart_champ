@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🎋𝗥𝗘𝗤 𝗚𝗥𝗢𝗨𝗣🎋", https://t.me/+zobcweVjD6NjMDhl"),
+            InlineKeyboardButton("🎋𝗥𝗘𝗤 𝗚𝗥𝗢𝗨𝗣🎋", url="https://t.me/+zobcweVjD6NjMDhl"),
             InlineKeyboardButton("🍁𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦🍁", url="https://t.me/heyguyscomeontakeit")
         ]
     )
@@ -442,8 +442,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/heyguyscomeontakeit'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+zobcweVjD6NjMDhl')
         ], [
             InlineKeyboardButton('☠️𝗛𝗘𝗟𝗣☠️', callback_data='help'),
             InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
