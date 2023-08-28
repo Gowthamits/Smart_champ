@@ -24,13 +24,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/heyguyscomeontakeit'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+zobcweVjD6NjMDhl')
         ], [
             InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
             InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -47,13 +47,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/heyguyscomeontakeit'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+zobcweVjD6NjMDhl')
         ], [
             InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
             InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -95,13 +95,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/heyguyscomeontakeit'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/+zobcweVjD6NjMDhl')
         ], [
             InlineKeyboardButton('☠️ 𝗛𝗘𝗟𝗣 ☠️', callback_data='help'),
             InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
