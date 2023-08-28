@@ -108,8 +108,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🦞ＳＥＡＲＣＨ 👨‍🏫", url="https://t.me/SAM_DUB_LEEZZA"),
-            InlineKeyboardButton("🍃 ＵＰＤＡＴＥ 🗽", url="https://t.me/SAM_DUB_LEZHa")
+            InlineKeyboardButton("🎋𝗥𝗘𝗤 𝗚𝗥𝗢𝗨𝗣🎋", url="https://t.me/SAM_DUB_LEEZZA"),
+            InlineKeyboardButton("🍁𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦🍁", url="https://t.me/SAM_DUB_LEZHa")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🥀ＨＯＷ ＴＯ ＤＯＷＮＬＯＡＤ🦞", url="https://t.me/SMD_Dulinks/26"),]
+    [InlineKeyboardButton("🥀𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🦞", url="https://t.me/SMD_Dulinks/26"),]
 )
     if n_offset == 0:
         btn.append(
@@ -440,15 +440,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('❄ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗚𝗥𝗢𝗨𝗣 🥀', url='https://t.me/SAM_DUB_LEEZZA')
         ], [
-            InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
-            InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
+            InlineKeyboardButton('☠️𝗛𝗘𝗟𝗣☠️', callback_data='help'),
+            InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -459,13 +459,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ᴍᴀɴᴜᴇʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('🍁𝗠𝗔𝗡𝗨𝗔𝗟 𝗙𝗜𝗟𝗧𝗘𝗥🍁', callback_data='manuelfilter'),
+            InlineKeyboardButton('🎋𝗔𝗨𝗧𝗢 𝗙𝗜𝗟𝗧𝗘𝗥🌿', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅꜱ', callback_data='extra')
+            InlineKeyboardButton('☘️𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡🏯', callback_data='coct'),
+            InlineKeyboardButton('🦞𝗠𝗢𝗢𝗗𝗦🦞', callback_data='extra')
         ], [
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🥀𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘🥀', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
