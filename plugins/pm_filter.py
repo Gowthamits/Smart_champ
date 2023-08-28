@@ -108,8 +108,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🎋𝗥𝗘𝗤 𝗚𝗥𝗢𝗨𝗣🎋", url="https://t.me/SAM_DUB_LEEZZA"),
-            InlineKeyboardButton("🍁𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦🍁", url="https://t.me/SAM_DUB_LEZHa")
+            InlineKeyboardButton("🎋𝗥𝗘𝗤 𝗚𝗥𝗢𝗨𝗣🎋", https://t.me/+zobcweVjD6NjMDhl"),
+            InlineKeyboardButton("🍁𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦🍁", url="https://t.me/heyguyscomeontakeit")
         ]
     )
 
@@ -448,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('☠️𝗛𝗘𝗟𝗣☠️', callback_data='help'),
             InlineKeyboardButton('🗽 𝗦𝗘𝗘 𝗜𝗡𝗙𝗢 👨‍🏫', callback_data='about')
         ], [
-            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🍁𝗡𝗢𝗢𝗕 𝗗𝗘𝗩𝗢𝗟𝗢𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -475,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/SAM_DUB_LEZHa'),
+            InlineKeyboardButton('☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞', url='https://t.me/heyguyscomeontakeit'),
             InlineKeyboardButton('👑𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘🥀', callback_data='source')
         ],[
             InlineKeyboardButton('🍁𝗛𝗢𝗠𝗘🌿', callback_data='start'),
@@ -701,8 +701,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("☘️ 𝗥𝗘𝗤𝗨 𝗛𝗨𝗕 🦞", url="https://t.me/SAM_DUB_LEEZZA"),
-            InlineKeyboardButton("☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞", url="https://t.me/SAM_DUB_LEZHa")
+            InlineKeyboardButton("☘️ 𝗥𝗘𝗤𝗨 𝗛𝗨𝗕 🦞", url="https://t.me/+zobcweVjD6NjMDhl"),
+            InlineKeyboardButton("☘️ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🦞", url="https://t.me/heyguyscomeontakeit")
         ]
     )
     
