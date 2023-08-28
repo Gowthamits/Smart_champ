@@ -22,7 +22,7 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://graph.org/file/58579ac1ee9964c11b07c.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/f3be62781274db58fd023.jpg , https://graph.org/file/58579ac1ee9964c11b07c.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5802083392 1044163529').split()]
@@ -82,7 +82,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ📥"
-DOWNLOAD_TEXT_URL = "https://t.me/SMD_Dulinks"
+DOWNLOAD_TEXT_URL = "https://t.me/how_to_open_dalink/7"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "💥MAIN HUB💫"
